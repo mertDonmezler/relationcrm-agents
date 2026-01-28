@@ -1,0 +1,16 @@
+{
+  "name": "RelationCRM-Agents",
+  "version": "1.0.0",
+  "description": "26-Agent AI-Powered Personal CRM Development System",
+  "plugins": [
+    {"id": "flutter-mobile-dev", "name": "Flutter Mobile Development", "path": "plugins/flutter-mobile-dev"},
+    {"id": "backend-api-dev", "name": "Backend API Development", "path": "plugins/backend-api-dev"},
+    {"id": "ai-relationship-engine", "name": "AI Relationship Engine", "path": "plugins/ai-relationship-engine"},
+    {"id": "integrations-hub", "name": "Integrations Hub", "path": "plugins/integrations-hub"},
+    {"id": "quality-assurance", "name": "Quality Assurance", "path": "plugins/quality-assurance"},
+    {"id": "infrastructure-ops", "name": "Infrastructure Ops", "path": "plugins/infrastructure-ops"},
+    {"id": "growth-monetization", "name": "Growth Monetization", "path": "plugins/growth-monetization"},
+    {"id": "privacy-compliance", "name": "Privacy Compliance", "path": "plugins/privacy-compliance"},
+    {"id": "orchestration-workflows", "name": "Orchestration Workflows", "path": "plugins/orchestration-workflows"}
+  ]
+}
