@@ -1,106 +1,76 @@
 {
-  "name": "RelationCRM-Agents",
-  "version": "1.0.0",
-  "description": "26-Agent AI-Powered Personal CRM Development System - Full Automation",
-  "author": "Mert",
-  "repository": "local",
+  "name": "relationcrm-agents",
+  "owner": {
+    "name": "mertDonmezler",
+    "email": "mert.donmezler@ozu.edu.tr"
+  },
+  "metadata": {
+    "description": "26-Agent AI-Powered Personal CRM Development System",
+    "version": "1.0.0"
+  },
   "plugins": [
     {
-      "id": "flutter-mobile-dev",
-      "name": "Flutter Mobile Development",
-      "description": "Cross-platform mobile app development with Flutter/Dart, iOS 18 compliance",
-      "path": "plugins/flutter-mobile-dev",
-      "agents": ["flutter-architect", "ui-designer", "state-manager"],
-      "commands": ["scaffold-app", "generate-screen", "build-release"],
-      "skills": ["flutter-patterns", "riverpod-state", "ios18-contacts"]
+      "name": "flutter-mobile-dev",
+      "source": "./plugins/flutter-mobile-dev",
+      "description": "Cross-platform mobile app development with Flutter/Dart",
+      "version": "1.0.0",
+      "author": {"name": "mertDonmezler"}
     },
     {
-      "id": "backend-api-dev",
-      "name": "Backend API Development",
+      "name": "backend-api-dev",
+      "source": "./plugins/backend-api-dev",
       "description": "Firebase/Supabase backend with Cloud Functions",
-      "path": "plugins/backend-api-dev",
-      "agents": ["backend-architect", "database-designer", "api-developer"],
-      "commands": ["scaffold-backend", "generate-endpoints", "deploy-functions"],
-      "skills": ["firebase-patterns", "firestore-security", "cloud-functions"]
+      "version": "1.0.0",
+      "author": {"name": "mertDonmezler"}
     },
     {
-      "id": "ai-relationship-engine",
-      "name": "AI Relationship Engine",
-      "description": "AI-powered relationship insights using Claude/GPT",
-      "path": "plugins/ai-relationship-engine",
-      "agents": ["ai-architect", "nlp-engineer", "recommendation-engine"],
-      "commands": ["generate-insights", "optimize-prompts", "test-ai"],
-      "skills": ["claude-integration", "sentiment-analysis", "relationship-scoring"]
+      "name": "ai-relationship-engine",
+      "source": "./plugins/ai-relationship-engine",
+      "description": "AI-powered relationship insights using Claude",
+      "version": "1.0.0",
+      "author": {"name": "mertDonmezler"}
     },
     {
-      "id": "integrations-hub",
-      "name": "Integrations Hub",
-      "description": "Google Calendar, Contacts, LinkedIn OAuth integrations",
-      "path": "plugins/integrations-hub",
-      "agents": ["integration-architect", "oauth-specialist", "sync-engineer"],
-      "commands": ["setup-integration", "test-oauth", "sync-contacts"],
-      "skills": ["google-apis", "apple-contacts", "oauth-flows"]
+      "name": "integrations-hub",
+      "source": "./plugins/integrations-hub",
+      "description": "Google Calendar, Contacts, LinkedIn integrations",
+      "version": "1.0.0",
+      "author": {"name": "mertDonmezler"}
     },
     {
-      "id": "quality-assurance",
-      "name": "Quality Assurance",
+      "name": "quality-assurance",
+      "source": "./plugins/quality-assurance",
       "description": "Testing, code review, and quality automation",
-      "path": "plugins/quality-assurance",
-      "agents": ["test-architect", "qa-automation", "code-reviewer"],
-      "commands": ["run-tests", "generate-tests", "review-code"],
-      "skills": ["flutter-testing", "integration-tests", "code-quality"]
+      "version": "1.0.0",
+      "author": {"name": "mertDonmezler"}
     },
     {
-      "id": "infrastructure-ops",
-      "name": "Infrastructure & Operations",
-      "description": "CI/CD, deployment, monitoring with GitHub Actions & Firebase",
-      "path": "plugins/infrastructure-ops",
-      "agents": ["devops-engineer", "cloud-architect", "monitoring-specialist"],
-      "commands": ["setup-cicd", "deploy-prod", "setup-monitoring"],
-      "skills": ["github-actions", "firebase-hosting", "crashlytics"]
+      "name": "infrastructure-ops",
+      "source": "./plugins/infrastructure-ops",
+      "description": "CI/CD, deployment, monitoring",
+      "version": "1.0.0",
+      "author": {"name": "mertDonmezler"}
     },
     {
-      "id": "growth-monetization",
-      "name": "Growth & Monetization",
-      "description": "ASO, RevenueCat, viral loops, Product Hunt launch",
-      "path": "plugins/growth-monetization",
-      "agents": ["growth-hacker", "monetization-expert", "aso-specialist"],
-      "commands": ["analyze-metrics", "optimize-funnel", "setup-paywall"],
-      "skills": ["revenuecat-integration", "aso-optimization", "viral-loops"]
+      "name": "growth-monetization",
+      "source": "./plugins/growth-monetization",
+      "description": "ASO, RevenueCat, viral loops",
+      "version": "1.0.0",
+      "author": {"name": "mertDonmezler"}
     },
     {
-      "id": "privacy-compliance",
-      "name": "Privacy & Compliance",
-      "description": "GDPR, CCPA, iOS Privacy Manifest, App Store compliance",
-      "path": "plugins/privacy-compliance",
-      "agents": ["privacy-architect", "security-auditor", "compliance-officer"],
-      "commands": ["audit-privacy", "generate-policy", "scan-security"],
-      "skills": ["gdpr-compliance", "ios-privacy-manifest", "data-encryption"]
+      "name": "privacy-compliance",
+      "source": "./plugins/privacy-compliance",
+      "description": "GDPR, CCPA, App Store compliance",
+      "version": "1.0.0",
+      "author": {"name": "mertDonmezler"}
     },
     {
-      "id": "orchestration-workflows",
-      "name": "Orchestration & Workflows",
-      "description": "Multi-agent coordination for complex development workflows",
-      "path": "plugins/orchestration-workflows",
-      "agents": ["orchestrator-master", "workflow-coordinator"],
-      "commands": ["full-feature", "sprint-planning", "release-cycle"],
-      "skills": ["agent-coordination", "parallel-execution", "conflict-resolution"]
+      "name": "orchestration-workflows",
+      "source": "./plugins/orchestration-workflows",
+      "description": "Multi-agent coordination workflows",
+      "version": "1.0.0",
+      "author": {"name": "mertDonmezler"}
     }
-  ],
-  "stats": {
-    "totalPlugins": 9,
-    "totalAgents": 26,
-    "totalCommands": 27,
-    "totalSkills": 27
-  },
-  "projectContext": {
-    "name": "RelationCRM",
-    "type": "Personal CRM Mobile App",
-    "stack": ["Flutter", "Firebase", "Claude AI"],
-    "target": "Global market, iOS & Android",
-    "pricing": {
-      "free": { "contacts": 150, "aiSuggestions": 3 },
-      "premium": { "monthly": 9.99, "annual": 79.99 }
-    }
-  }
+  ]
 }
