@@ -1,16 +1,17 @@
 {
-  "name": "RelationCRM-Agents",
+  "owner": "mertDonmezler",
+  "name": "relationcrm-agents",
   "version": "1.0.0",
   "description": "26-Agent AI-Powered Personal CRM Development System",
   "plugins": [
-    {"id": "flutter-mobile-dev", "name": "Flutter Mobile Development", "path": "plugins/flutter-mobile-dev"},
-    {"id": "backend-api-dev", "name": "Backend API Development", "path": "plugins/backend-api-dev"},
-    {"id": "ai-relationship-engine", "name": "AI Relationship Engine", "path": "plugins/ai-relationship-engine"},
-    {"id": "integrations-hub", "name": "Integrations Hub", "path": "plugins/integrations-hub"},
-    {"id": "quality-assurance", "name": "Quality Assurance", "path": "plugins/quality-assurance"},
-    {"id": "infrastructure-ops", "name": "Infrastructure Ops", "path": "plugins/infrastructure-ops"},
-    {"id": "growth-monetization", "name": "Growth Monetization", "path": "plugins/growth-monetization"},
-    {"id": "privacy-compliance", "name": "Privacy Compliance", "path": "plugins/privacy-compliance"},
-    {"id": "orchestration-workflows", "name": "Orchestration Workflows", "path": "plugins/orchestration-workflows"}
+    {"id": "flutter-mobile-dev", "name": "flutter-mobile-dev", "source": "plugins/flutter-mobile-dev"},
+    {"id": "backend-api-dev", "name": "backend-api-dev", "source": "plugins/backend-api-dev"},
+    {"id": "ai-relationship-engine", "name": "ai-relationship-engine", "source": "plugins/ai-relationship-engine"},
+    {"id": "integrations-hub", "name": "integrations-hub", "source": "plugins/integrations-hub"},
+    {"id": "quality-assurance", "name": "quality-assurance", "source": "plugins/quality-assurance"},
+    {"id": "infrastructure-ops", "name": "infrastructure-ops", "source": "plugins/infrastructure-ops"},
+    {"id": "growth-monetization", "name": "growth-monetization", "source": "plugins/growth-monetization"},
+    {"id": "privacy-compliance", "name": "privacy-compliance", "source": "plugins/privacy-compliance"},
+    {"id": "orchestration-workflows", "name": "orchestration-workflows", "source": "plugins/orchestration-workflows"}
   ]
 }
